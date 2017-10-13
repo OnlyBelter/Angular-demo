@@ -1,0 +1,11 @@
+
+<div class="demo-component">
+  <a href="https://angular.cn/guide/component-interaction#父组件监听子组件的事件" target="_blank">Reference here</a>
+  <p>操作的是子组件中的button，将变化传递到父组件</p>
+  <h2>Should mankind colonize the Universe?</h2>
+  <h3>Agree: {{agreed}}, Disagree: {{disagreed}}</h3>
+  <app-event-emitter-child *ngFor="let voter of voters"
+    [name]="voter"
+    (onVoted)="onVoted($event)">
+  </app-event-emitter-child>
+</div>

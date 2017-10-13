@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #f0f0f0;
+}
+
+.inner-component {
+    width:900px;
+    margin:0 auto;
+    background-color: #ffffff;
+    border:0;
+}
+
+.demo-component {
+    /* margin: 20px; */
+    padding: 20px;
+}
